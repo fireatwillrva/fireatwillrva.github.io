@@ -1,56 +1,66 @@
- <!-- 1. Your HTML should have each of the following sections:
-   * Header
-   * Nav
-   * Aside
-   * Section
-   * Article (With a Heading)
-   * Headers
-   * Paragraph -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="style.css"
+    <title>Will Fisher Index</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
 
+<!-- header -->
 <header>
-    header
+<div class="header-content">
+		<h1 class="my-name">Will Fisher</h1>
+		<nav class="nav-text">
+			<ul>
+				<li><a href="index.html" class="nav-link">About</a> | </li>
+				<li><a href="portfolio.html" class="nav-link">Portfolio</a> | </li>
+				<li><a href="contact.html" class="nav-link">Contact</a> </li>
+			</ul>
+		</nav>
+	</div>
+<!-- End Nav Bar -->
 </header>
+<!-- End Header -->
+<div class="content-area">
+     <section id="main-content">
+        <h2 class="teal-words1">About Me</h2>
+        <hr id="main-content-line">
+        <img src="assets/images/profile_image.jpg" alt="Will Fisher" width="200px" height="200px" class="profile-pic">
+        <p class="main-text">I'm an internationally published, award-winning photographer with a Bachelors of Arts in Music
+            with a specification in Audio Engineering and a Minor in Creative Advertising from Virginia Commonwealth University.
+            I'm changing gears to a career in coding because the future isn't going to build and program itself. I am currently
+            a student of University of Richmond's Coding Bootcamp. 
+        </p><br>
 
-<nav>
-    nav
-</nav>   
+        <p class="main-text">Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
+        laborum.</p><br>
 
-<section id="section1">
-    section
-    <!-- Article within section -->
-    <article id="article1">
-        article
-        <!-- h1h2h3 in article -->
-        <div id="h1h2h3">
-            h1, h2, h3
-            </div>
-            <!-- p below h1h2h3 in article -->
-            <p id="p1">
-                p
-                </p>
-    
-    </article>
+        <p class="main-text">Duis aute irure dolor in reprehenderit in voluptate 
+            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
+            laborum.</p><br>
+        
+    </section>
+</div>
 
-</section>
 
-<aside id="aside1">
-aside
-</aside>
+<sidebar class="connect-content">
+        <h3 class="teal-words2">Connect with Me</h3>
+        <hr id="connect-line">
+    <img src="assets/images/github64x64.png" alt="Github" class="icons">
+    <img src="assets/images/linkedin64x64.png" alt="LinkedIn" class="icons">
+    <img src="assets/images/stack-overflow64x64.png" alt="Stack Overflow" class="icons">
+</sidebar>
+</div>
 
-<footer id="footer1">
-    footer
-</footer>
-
+<footer id="footer">
+        <p id="footer-text">©2018 Will Fisher</p>
+    </footer>
 </body>
 </html>

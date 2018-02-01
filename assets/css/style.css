@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    background-image: url(../images/concrete_seamless.png);
+    height: 100%
+}
+
+/* header and nav bar */
+
+header {
+    clear: both;
+    display: block;
+    background: white;
+    margin: 0px auto 40px auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%
+}
+
+nav {
+    float: right;
+    display: inline;
+    padding-top: 15px;
+    position: absolute;
+    right: 20%;
+}
+
+.nav-link {
+    color: grey;
+    text-decoration: none;
+}
+
+.my-name {
+	font-size: 32px;
+	color: white;
+	background: #4aaaa5;
+    display: inline-block;
+    padding: 10px 33px 10px 33px;
+    margin-left: 16.5%;
+}
+
+li {
+    display: inline;
+    color: grey;
+}
+
+/* About me section */
+
+.teal-words1 {
+    color: #4aaaa5;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.teal-words2 {
+    color: #4aaaa5;
+    font-size: 25px
+}
+
+.content-area {
+	box-sizing: border-box;
+	max-width: 960px;
+	min-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 40px;
+}
+
+#main-content-line {
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+#main-content {
+    box-sizing: border-box;
+    max-width: 650px;
+    min-width: 650px;
+    padding-left: 33px;
+    padding-right: 33px;
+    border: 1px grey solid;
+    float: left;
+    clear: right;
+    background: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: grey;
+    line-height: 150%;
+}
+
+.profile-pic {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+/* Connect with me sidebar */
+
+.connect-content {
+    box-sizing: border-box;
+    float: right;
+    width: 270px;
+    border: solid 1px grey;
+    padding: 31px;
+    background: white;
+    position: absolute;
+    margin-left: 40px;
+}
+#connect-line {
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.icons {
+    height: 64px;
+    width: 64px;
+}
+
+#stack {
+    max-width: 64px;
+    max-height: 64px
+}
+
+/* footer */
+
+footer {
+    height: 90px;
+    border-top: 10px solid #4aaaa5;
+    background: grey;
+    text-align: center;
+    color: white;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    min-width: 100%
+}
+}
