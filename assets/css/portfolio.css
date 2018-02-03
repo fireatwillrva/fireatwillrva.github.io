@@ -1,0 +1,6 @@
+.portfolio-images {
+    width: 260px;
+    height: 200px;
+    border: solid grey 1px;
+    margin: 10px;
+    box-sizing: border-box
