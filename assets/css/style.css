@@ -22,6 +22,7 @@ body {
   img {
     max-height: 274px;
     max-width: 274px;
+    border-radius: 4px;
   }
   
   h1,
@@ -169,6 +170,8 @@ body {
     width: 274px;
     margin: 20px 0 25px;
     overflow: auto;
+    border-radius: 9px;
+    border: solid grey 1px;
   }
   
   .work:nth-child(even) {
